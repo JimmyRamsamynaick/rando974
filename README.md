@@ -69,7 +69,7 @@ Rando974 est une application mobile Flutter conçue pour accompagner les curieux
 
 ```bash
 # Cloner le projet
-git clone https://github.com/votre-username/rando974.git
+git clone git@github.com:JimmyRamsamynaick/rando974.git
 cd rando974
 
 # Installer les dépendances
