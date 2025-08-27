@@ -1,0 +1,57 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFC107;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE082;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#66BB6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky with sunrise -->
+  <rect width="400" height="200" fill="url(#skyGradient)"/>
+  
+  <!-- Mountain layers -->
+  <polygon points="0,200 80,120 160,100 240,110 320,90 400,120 400,300 0,300" fill="url(#mountainGradient1)"/>
+  <polygon points="0,220 60,160 140,140 220,150 300,130 400,160 400,300 0,300" fill="url(#mountainGradient2)"/>
+  
+  <!-- Valley floor -->
+  <ellipse cx="200" cy="250" rx="120" ry="30" fill="#81C784"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="70" r="25" fill="#FFD54F"/>
+  
+  <!-- Sun rays -->
+  <line x1="350" y1="30" x2="350" y2="45" stroke="#FFD54F" stroke-width="2"/>
+  <line x1="350" y1="95" x2="350" y2="110" stroke="#FFD54F" stroke-width="2"/>
+  <line x1="310" y1="70" x2="325" y2="70" stroke="#FFD54F" stroke-width="2"/>
+  <line x1="375" y1="70" x2="390" y2="70" stroke="#FFD54F" stroke-width="2"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="100" cy="50" rx="20" ry="12" fill="white" opacity="0.7"/>
+  <ellipse cx="115" cy="45" rx="15" ry="10" fill="white" opacity="0.7"/>
+  
+  <!-- Small village houses -->
+  <rect x="180" y="240" width="8" height="8" fill="#8D6E63"/>
+  <polygon points="180,240 184,235 188,240" fill="#D32F2F"/>
+  
+  <rect x="200" y="245" width="6" height="6" fill="#8D6E63"/>
+  <polygon points="200,245 203,241 206,245" fill="#D32F2F"/>
+  
+  <rect x="220" y="242" width="7" height="7" fill="#8D6E63"/>
+  <polygon points="220,242 223.5,238 227,242" fill="#D32F2F"/>
+  
+  <!-- Trees -->
+  <rect x="150" y="235" width="2" height="15" fill="#5D4037"/>
+  <circle cx="151" cy="230" r="5" fill="#4CAF50"/>
+  
+  <rect x="250" y="238" width="2" height="12" fill="#5D4037"/>
+  <circle cx="251" cy="233" r="4" fill="#4CAF50"/>
+</svg>
